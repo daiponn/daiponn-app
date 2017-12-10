@@ -2,8 +2,11 @@ package com.kasahara;
 
 import redis.clients.jedis.Jedis;
 
+/**
+ * jedisのチュートリアル
+ */
 public class JedisTutorial {
-    //redis初期化のためのパラメータを準備
+    //jedis生成に必要なパラメータを準備
     private static final String LOCAL_REDIS_IP_ADDRESS = "localhost";
     private static final int REDIS_PORT = 6379; //デフォルトだとこのポート
     private static final int REDIS_CONNECT_TIMEOUT = 1000;
