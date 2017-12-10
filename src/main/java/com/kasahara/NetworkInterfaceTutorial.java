@@ -14,7 +14,7 @@ public class NetworkInterfaceTutorial {
     public static void main (String[] args) throws Exception {
         Enumeration enuIfs = NetworkInterface.getNetworkInterfaces();
         String ownIpAddress = null;
-        if (enuIfs != null) {
+            if (enuIfs != null) {
             while (enuIfs.hasMoreElements()) {
                 NetworkInterface ni = (NetworkInterface)enuIfs.nextElement();
                 System.out.println(ni.getName());
