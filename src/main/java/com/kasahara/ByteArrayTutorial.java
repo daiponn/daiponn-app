@@ -44,7 +44,7 @@ public class ByteArrayTutorial{
         System.out.println(Integer.toHexString(newfront4bit)); //0x60 (01100000)
         System.out.println(Integer.toHexString(newback4bit));  //0x05 (00000101)
 
-        //1が立っているbitを「｜」で抽出
+        //1が立っているbitを抽出
         int newdata = newfront4bit | newback4bit;
         System.out.println(Integer.toHexString(newdata)); //0x65　逆になってる！
 
