@@ -54,7 +54,7 @@ class Woman implements Human{
 
     @Override
     public void eat() {
-        System.out.println("マカロンを");
+        System.out.println("マカロンを食べた");
     }
 
 

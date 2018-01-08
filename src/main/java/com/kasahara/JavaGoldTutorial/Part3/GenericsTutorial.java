@@ -2,7 +2,7 @@ package com.kasahara.JavaGoldTutorial.Part3;
 
 public class GenericsTutorial <T> {
     private T var1;
-    //private T var2;   コンパイルエラー（staticなメンバ変数には「T」を使用できない）
+    //private static T var2;   コンパイルエラー（staticなメンバ変数には「T」を使用できない）
 
     public GenericsTutorial(T var1){ this.var1 = var1; }
 
