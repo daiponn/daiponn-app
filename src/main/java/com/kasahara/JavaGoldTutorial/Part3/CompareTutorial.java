@@ -6,13 +6,13 @@ import java.util.Comparator;
 public class CompareTutorial implements Comparator<String> {
     @Override
     public int compare(String s1, String s2) {
-        return s2.compareTo(s1);
+        return s1.compareTo(s2);
     }
 
 //    s1とs2の順番を入れ替えた場合は、降順となる。
 //    @Override
 //    public int compare(String s1, String s2) {
-//        return s1.compareTo(s2);
+//        return s2.compareTo(s1);
 //    }
 
     public static void main(String[] args) {
